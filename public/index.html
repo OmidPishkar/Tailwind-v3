@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./main.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./scripts/Chart.js.min.js"></script>
+    <link rel="stylesheet" href="./aniamte.css">
+    <title>Tailwind Project</title>
+</head>
+<body>
+    <header class="header h-max w-full relative">
+        <img src="./image/shape-left.svg" class="absolute left-0 top-0 w-full h-full sm:w-max sm:h-max -z-10" alt="">
+        <img src="./image/shape-right.svg" class="absolute right-0 top-0 w-full h-full sm:w-max sm:h-max -z-10" alt="">
+        <div class="w-full h-full bg-gradient-to-t from-zinc-800 to-slate-900 absolute top-0 left-0 -z-20"></div>
+        
+        
+        <section class="container mx-auto">
+            
+
+
+
+
+            <nav class="py-6  flex justify-between items-center relative">
+
+                <img src="./image/logo-white.svg" alt="" class="cursor-pointer  wow animate__animated animate__fadeInUp">
+                <ul id="header-menu" class="hidden gap-y-12 absolute z-40 px-8 top-16 right-0 mr-4 flex-col w-max sm:w-2/5 h-max p-8 rounded-lg bg-blue-600 wow animate__animated animate__fadeInRight">
+                    <li>
+                        <a href="#" class="text-white text-lg font-semibold hover:text-white">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white text-lg font-semibold hover:text-white">Features</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white text-lg font-semibold hover:text-white">Roadmap</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white text-lg font-semibold hover:text-white">Pages</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white text-lg font-semibold hover:text-white">Support</a>
+                    </li>
+                    <li>
+                        <a href="#" class="border border-solid border-white hover:text-blue-500 px-3 py-1 rounded-lg text-white text-lg font-semibold hover:bg-white">Sign In</a>
+                    </li>
+                </ul>
+                <button id="toggle-menu" class="text-3xl border-0 bg-transparent text-white cursor-pointer   bx bx-menu"></button>
+
+            </nav>
+
+
+
+
+
+            
+            <div class="content flex flex-col items-center justify-center mt-28">
+                <h1 class="text-white text-5xl font-normal text-center w-full my-12 h-max leading-relaxed wow animate__animated animate__fadeInUp">Tailwind css And Javascript Template for<br/>Crypto, ICO and Web3</h1>
+
+                <p class="text-base text-white font-medium text-center max-w-xl leading-loose mb-12">
+                    Crypto Currency, Blockchain, ICO, Web3 related website template crafted with Tailwind CSS. Comes with all essential UI components and pages to launch complete website or landing page for anything that related to Crypto, Blockchain and Web3.
+                </p>
+
+                <ul class="flex mb-12 gap-4 flex-wrap justify-center  wow animate__animated animate__fadeInUp">
+                    <li>
+                        <button class="border-none bg-white rounded-full flex items-center justify-center p-1">
+                            <i class='bx bxl-bitcoin    text-4xl text-yellow-600'></i>                        
+                        </button>
+                    </li>
+                    <li>
+                        <button class="border-none bg-white rounded-full flex items-center justify-center p-1">
+                            <i class='bx bxl-bitcoin    text-4xl text-yellow-600'></i>                        
+                        </button>
+                    </li>
+                    <li>
+                        <button class="border-none bg-white rounded-full flex items-center justify-center p-1">
+                            <i class='bx bxl-bitcoin    text-4xl text-yellow-600'></i>                      
+                        </button>
+                    </li>
+                    <li>
+                        <button class="border-none bg-white rounded-full flex items-center justify-center p-1">
+                            <i class='bx bxl-bitcoin    text-4xl text-yellow-600'></i>                        
+                        </button>
+                    </li>
+                    <li>
+                        <button class="border-none bg-white rounded-full flex items-center justify-center p-1">
+                            <i class='bx bxl-bitcoin    text-4xl text-yellow-600'></i>
+                        </button>
+                    </li>
+                </ul>
+
+                <button class="border-none bg-blue-600 text-white text-base cursor-pointer px-4 py-2 rounded-full hover:bg-blue-700">Buy Token 47% Off</button>
+
+                <div class="my-6 w-full bg-zinc-600" style="height: 1px;"></div>
+            </div>  
+
+        </section>
+    </header>
+
+   
+    <div class="bg-zinc-800 py-6 w-full">
+        <div class="container mx-auto">
+            
+            <h3 class="text-center text-white text-2xl ">Join the 20,000+ companies using the our platform</h3>
+
+            <div class="text-center flex flex-col md:flex-row gap-8 justify-around my-12">
+                <a href="#" class="wow animate__animated animate__fadeInLeft"><img src="./image/uideck-white.svg" alt=""></a>
+                <a href="#" class="wow animate__animated animate__fadeInLeft"><img src="./image/TailGrids-white.svg" alt=""></a>
+                <a href="#" class="wow animate__animated animate__fadeInRight"><img src="./image/LineIcons-white.svg" alt=""></a>
+                <a href="#" class="wow animate__animated animate__fadeInRight"><img src="./image/PlainAdmin-white.svg" alt=""></a>
+            </div>
+
+            <div class="my-6 w-full bg-zinc-600" style="height: 1px;"></div>
+        </div>
+    </div>
+    
+    <div class="bg-zinc-800 pb-12 w-full">
+
+        <div class="container mx-auto">
+            <div class="text-center py-16">
+                <h5 class="uppercase text-blue-600 text-xl font-semibold">CRYPTO FEATURE</h5>
+                <h2 class="text-white text-6xl mb-12 mt-8">Best Features</h2>
+                <p class="text-teal-500 max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.</p>
+            </div>
+
+            <div class="w-full flex flex-col md:flex-row flex-wrap">
+
+
+                <div class=" w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center p-6 wow animate__animated animate__fadeInUp">
+                    <div class="bg-blue-500 w-max p-4 rounded-full mb-6">
+                        <i class='text-4xl text-white   bx bx-intersect'></i>
+                    </div>
+
+                    <h4 class="text-white text-3xl font-medium my-4 text-center">Safe & Secure</h4>
+
+                    <p class="text-teal-200 text-center">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor</p>
+                
+                </div>
+
+                <div class=" w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center p-6 wow animate__animated animate__fadeInUp">
+                    <div class="bg-blue-500 w-max p-4 rounded-full mb-6">
+                        <i class='text-4xl text-white   bx bx-gift'></i>
+                    </div>
+
+                    <h4 class="text-white text-3xl font-medium my-4 text-center">Early Bonus</h4>
+
+                    <p class="text-teal-200 text-center">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor</p>
+                </div>
+
+
+                <div class=" w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center p-6 wow animate__animated animate__fadeInUp">
+                    <div class="bg-blue-500 w-max p-4 rounded-full mb-6">
+                        <i class='text-4xl text-white   bx bxs-shapes'></i>
+                    </div>
+
+                    <h4 class="text-white text-3xl font-medium my-4 text-center">Universal Access</h4>
+
+                    <p class="text-teal-200 text-center">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor</p>
+                </div>
+
+
+
+                <div class=" w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center p-6 wow animate__animated animate__fadeInUp">
+                    <div class="bg-blue-500 w-max p-4 rounded-full mb-6">
+                        <i class='text-4xl text-white   bx bxs-memory-card'></i>
+                    </div>
+
+                    <h4 class="text-white text-3xl font-medium my-4 text-center">Secure Storage</h4>
+
+                    <p class="text-teal-200 text-center">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor</p>
+                </div>
+
+
+
+                <div class=" w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center p-6 wow animate__animated animate__fadeInUp">
+                    <div class="bg-blue-500 w-max p-4 rounded-full mb-6">
+                        <i class='text-4xl text-white   bx bxs-wallet-alt'></i>
+                    </div>
+
+                    <h4 class="text-white text-3xl font-medium my-4 text-center">Low Cost</h4>
+
+                    <p class="text-teal-200 text-center">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor</p>
+                </div>
+
+
+
+                <div class=" w-full md:w-1/2 lg:w-1/3 flex flex-col justify-center items-center p-6 wow animate__animated animate__fadeInUp">
+                    <div class="bg-blue-500 w-max p-4 rounded-full mb-6">
+                        <i class='text-4xl text-white   bx bxs-color'></i>
+                    </div>
+
+                    <h4 class="text-white text-3xl font-medium my-4 text-center">Several Profit</h4>
+
+                    <p class="text-teal-200 text-center">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="bg-zinc-800 pb-12">    
+        <section class="container mx-auto bg-zinc-900 rounded-lg p-8">
+            <div class="w-full flex flex-col lg:flex-row gap-4">
+
+
+
+                <div class="w-full lg:w-1/2 h-max wow animate__animated animate__fadeInLeft">
+                    
+                    <canvas id="myChart" class="w-full"></canvas>
+
+                </div>
+                
+                
+                
+                
+                <div class="w-full lg:w-1/2 h-max wow animate__animated animate__fadeInUp">
+                    <h5 class="font-semibold text-xl text-blue-500">TOKEN</h5>
+                    <h3 class="font-bold text-4xl text-white my-6">Token Sale</h3>
+                    <p class="text-teal-300 mb-12 break-words">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum tellus at lectus pulvinar, id auctor felis iaculis. In vestibulum neque sem, at dapibus justo facilisis in.
+                    </p>
+                    <p class="flex items-start my-3">
+                        <span class="mr-3 p-3 bg-blue-500 rounded-full"></span>
+                        <span class="text-teal-300">73% Financial Overhead</span>
+                    </p>
+                    <p class="flex items-start my-3">
+                        <span class="mr-3 p-3 bg-blue-700 rounded-full"></span>
+                        <span class="text-teal-300">55% Bonus & found</span>
+                    </p>
+                    <p class="flex items-start my-3">
+                        <span class="mr-3 p-3 bg-blue-300 rounded-full"></span>
+                        <span class="text-teal-300">38% it infastrueture</span>
+                    </p>
+                    <p class="flex items-start my-3">
+                        <span class="mr-3 p-3 bg-blue-200 rounded-full"></span>
+                        <span class="text-teal-300">20.93% Gift Code Inventory</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+    <div class="bg-zinc-800 pb-12">
+        <div class="container mx-auto">
+            <div class="text-center py-16">
+                <h5 class="uppercase text-blue-600 text-xl font-semibold">roadmap</h5>
+                <h2 class="text-white text-6xl mb-12 mt-8">The Timeline</h2>
+                <p class="text-teal-500 max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-zinc-800 pb-12">
+        <div class="container mx-auto">
+            <div class="w-full h-max flex flex-col md:flex-row relative  flex-wrap">
+                <span class="hidden md:block absolute top-0 left-1/2 h-full bg-teal-900" style="width: 1px;"></span>
+            
+                <div class="w-full  md:w-1/2 h-max flex justify-center md:justify-start relative my-4 md:my-0 wow animate__animated animate__fadeInDown">
+                    <span class="hidden md:block absolute w-4 h-4 bg-white top-1/2 -right-2 rounded-full border-4 p-1 border-solid border-red-600"
+                    style="transform: translateY(-50%);"></span>
+                    
+                    <div class="rounded-lg bg-blue-800 p-6 text-center md:text-right           w-5/6 h-max relative">
+                        <span class="hidden md:block absolute w-4 h-4 bg-blue-800 top-1/2 -right-2" style="transform: translateY(-50%)  rotateZ(45deg)"></span>
+                    
+                        <h4 class="text-white text-xl font-semibold mt-2 mb-4">Feb 25,2020</h4>
+                        <p class="my-4 text-teal-500 font-semibold">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit. Nunc sed congue arcu, In et dignissim quam<br/>condimentum vel
+                        </p>
+                        <button class="mb-4 cursor-pointer text-teal-600 rounded-full px-4 py-2 bg-white border-none flex items-center justify-center mx-auto md:ml-auto md:mr-0">
+                            <i class="ml-2 text-yellow-600 text-xl  bx bxl-bitcoin"></i>
+                            <span class="mx-2 text-base">Bitcoin</span>
+                            <span class="flex items-center mx-2">4.5% <i class='ml-1  bx bx-up-arrow-alt'></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-1/2 h-max"></div>
+
+
+                <div class="w-1/2 h-max"></div>
+                <div class="w-full  md:w-1/2 h-max flex justify-center md:justify-end relative my-4 md:my-0 wow animate__animated animate__fadeInDown">
+                    <span class="hidden md:block absolute w-4 h-4 bg-white top-1/2 -left-2 rounded-full border-4 p-1 border-solid border-red-600"
+                    style="transform: translateY(-50%);"></span>
+                    
+                    <div class="rounded-lg bg-blue-800 p-6 text-center md:text-right           w-5/6 h-max relative">
+                        <span class="hidden md:block absolute w-4 h-4 bg-blue-800 top-1/2 -left-2" style="transform: translateY(-50%)  rotateZ(45deg)"></span>
+                    
+                        <h4 class="text-white text-xl font-semibold mt-2 mb-4">Feb 25,2020</h4>
+                        <p class="my-4 text-teal-500 font-semibold">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit. Nunc sed congue arcu, In et dignissim quam<br/>condimentum vel
+                        </p>
+                        <button class="mb-4 cursor-pointer text-teal-600 rounded-full px-4 py-2 bg-white border-none flex items-center justify-center mx-auto md:ml-auto md:mr-0">
+                            <i class="ml-2 text-yellow-600 text-xl  bx bxl-bitcoin"></i>
+                            <span class="mx-2 text-base">Bitcoin</span>
+                            <span class="flex items-center mx-2">4.5% <i class='ml-1  bx bx-up-arrow-alt'></i></span>
+                        </button>
+                    </div>
+                </div>
+
+
+
+                <div class="w-full  md:w-1/2 h-max flex justify-center md:justify-start relative my-4 md:my-0 wow animate__animated animate__fadeInDown">
+                    <span class="hidden md:block absolute w-4 h-4 bg-white top-1/2 -right-2 rounded-full border-4 p-1 border-solid border-red-600"
+                    style="transform: translateY(-50%);"></span>
+                    
+                    <div class="rounded-lg bg-blue-800 p-6 text-center md:text-right           w-5/6 h-max relative">
+                        <span class="hidden md:block absolute w-4 h-4 bg-blue-800 top-1/2 -right-2" style="transform: translateY(-50%)  rotateZ(45deg)"></span>
+                    
+                        <h4 class="text-white text-xl font-semibold mt-2 mb-4">Feb 25,2020</h4>
+                        <p class="my-4 text-teal-500 font-semibold">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit. Nunc sed congue arcu, In et dignissim quam<br/>condimentum vel
+                        </p>
+                        <button class="mb-4 cursor-pointer text-teal-600 rounded-full px-4 py-2 bg-white border-none flex items-center justify-center mx-auto md:ml-auto md:mr-0">
+                            <i class="ml-2 text-yellow-600 text-xl  bx bxl-bitcoin"></i>
+                            <span class="mx-2 text-base">Bitcoin</span>
+                            <span class="flex items-center mx-2">4.5% <i class='ml-1  bx bx-up-arrow-alt'></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-1/2 h-max"></div>
+
+
+                <div class="w-1/2 h-max"></div>
+                <div class="w-full  md:w-1/2 h-max flex justify-center md:justify-end relative my-4 md:my-0 wow animate__animated animate__fadeInDown">
+                    <span class="hidden md:block absolute w-4 h-4 bg-white top-1/2 -left-2 rounded-full border-4 p-1 border-solid border-red-600"
+                    style="transform: translateY(-50%);"></span>
+                    
+                    <div class="rounded-lg bg-blue-800 p-6 text-center md:text-right           w-5/6 h-max relative">
+                        <span class="hidden md:block absolute w-4 h-4 bg-blue-800 top-1/2 -left-2" style="transform: translateY(-50%)  rotateZ(45deg)"></span>
+                    
+                        <h4 class="text-white text-xl font-semibold mt-2 mb-4">Feb 25,2020</h4>
+                        <p class="my-4 text-teal-500 font-semibold">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit. Nunc sed congue arcu, In et dignissim quam<br/>condimentum vel
+                        </p>
+                        <button class="mb-4 cursor-pointer text-teal-600 rounded-full px-4 py-2 bg-white border-none flex items-center justify-center mx-auto md:ml-auto md:mr-0">
+                            <i class="ml-2 text-yellow-600 text-xl  bx bxl-bitcoin"></i>
+                            <span class="mx-2 text-base">Bitcoin</span>
+                            <span class="flex items-center mx-2">4.5% <i class='ml-1  bx bx-up-arrow-alt'></i></span>
+                        </button>
+                    </div>
+                </div>
+                
+
+
+                
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-zinc-800 py-16">
+        <div class="my-6 w-full bg-zinc-600" style="height: 1px;"></div>
+
+        <div class="container mx-auto">
+            <div class="text-center py-16">
+                <h5 class="uppercase text-blue-600 text-xl font-semibold">out team</h5>
+                <h2 class="text-white text-6xl mb-12 mt-8">Meet Out Team</h2>
+                <p class="text-teal-500 max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.</p>
+            </div>
+            <div class="w-full flex flex-col sm:flex-row flex-wrap wow animate__animated animate__fadeInUp">
+
+
+                <div class="p-4  w-full sm:w-1/2 lg:w-1/4">
+                    <div class="   m-2 w-full h-max bg-blue-900 p-2 rounded-lg  flex flex-col items-center justify-center">
+                        <img src="./image/image-01.jpg" width="100%" class="rounded-lg mb-2" alt="">
+                        <h4 class="text-white my-4 text-lg font-medium">Matheus Ferrero</h4>
+                        <p class="mb-3 text-teal-300 text-sm font-medium">Marketing Expert</p>
+                        <ul class="flex gap-4 my-3">
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-facebook"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-linkedin"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-twitter"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-youtube"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="p-4  w-full sm:w-1/2 lg:w-1/4">
+                    <div class="m-2 w-full h-max bg-blue-900 p-2 rounded-lg  flex flex-col items-center justify-center">
+                        <img src="./image/image-02.jpg" width="100%" class="rounded-lg mb-2" alt="">
+                        <h4 class="text-white my-4 text-lg font-medium">Eva Hudson</h4>
+                        <p class="mb-3 text-teal-300 text-sm font-medium">BlockChain Developer</p>
+                        <ul class="flex gap-4 my-3">
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-facebook"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-linkedin"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-twitter"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-youtube"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="p-4  w-full sm:w-1/2 lg:w-1/4">
+                    <div class="m-2 w-full h-max bg-blue-900 p-2 rounded-lg  flex flex-col items-center justify-center">
+                        <img src="./image/image-03.jpg" width="100%" class="rounded-lg mb-2" alt="">
+                        <h4 class="text-white my-4 text-lg font-medium">jackie Sanders</h4>
+                        <p class="mb-3 text-teal-300 text-sm font-medium">Marketing Expert</p>
+                        <ul class="flex gap-4 my-3">
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-facebook"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-linkedin"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-twitter"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-youtube"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="p-4  w-full sm:w-1/2 lg:w-1/4">
+                    <div class="m-2 w-full h-max bg-blue-900 p-2 rounded-lg  flex flex-col items-center justify-center">
+                        <img src="./image/image-04.jpg" width="100%" class="rounded-lg mb-2" alt="">
+                        <h4 class="text-white my-4 text-lg font-medium">I Don't Know</h4>
+                        <p class="mb-3 text-teal-300 text-sm font-medium">SEO Expert</p>
+                        <ul class="flex gap-4 my-3">
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-facebook"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-linkedin"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-twitter"></a></li>
+                            <li><a href="#" class="text-white hover:text-teal-200 text-lg   bx bxl-youtube"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-zinc-700 py-12">
+        <div class="container mx-auto">
+            <div class="text-center py-16">
+                <h5 class="uppercase text-blue-600 text-xl font-semibold">testimonials</h5>
+                <h2 class="text-white text-6xl mb-12 mt-8">What Our Client Say's</h2>
+                <p class="text-teal-500 max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.</p>
+            </div>
+    
+            <div class="w-full h-max flex flex-row flex-wrap">
+                <div class="w-full md:w-1/2 p-4   wow animate__animated animate__fadeInUp">
+                    <div class="w-full h-max m-2 p-6 bg-indigo-900 rounded-lg relative">
+                        <img src="./image/testimonial-shape.svg" class="absolute w-1/2 h-full top-0 right-0" alt="">
+
+                        <div class="flex items-center">
+                            <img src="./image/image-01 (1).jpg" alt="" class="rounded-lg">
+                            <span class="ml-4">
+                                <h3 class="text-white text-xl">Jason Keys</h3>
+                                <h5 class="text-teal-300 mt-3">CEO & Founder @ Dreampeet.</h5>
+                            </span>
+                        </div>
+
+                        <p class="my-4 text-teal-500 font-medium">
+                            “I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys.”
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="w-full md:w-1/2 p-4   wow animate__animated animate__fadeInUp">
+                    <div class="w-full h-max m-2 p-6 bg-indigo-900 rounded-lg relative">
+                        <img src="./image/testimonial-shape.svg" class="absolute w-1/2 h-full top-0 right-0" alt="">
+
+                        <div class="flex items-center">
+                            <img src="./image/image-02 (1).jpg" alt="" class="rounded-lg">
+                            <span class="ml-4">
+                                <h3 class="text-white text-xl">Marrya Merry</h3>
+                                <h5 class="text-teal-300 mt-3">CEO & Founder @ Dreampeet.</h5>
+                            </span>
+                        </div>
+
+                        <p class="my-4 text-teal-500 font-medium">
+                            “I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys.”
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="w-full md:w-1/2 p-4   wow animate__animated animate__fadeInUp">
+                    <div class="w-full h-max m-2 p-6 bg-indigo-900 rounded-lg relative">
+                        <img src="./image/testimonial-shape.svg" class="absolute w-1/2 h-full top-0 right-0" alt="">
+
+                        <div class="flex items-center">
+                            <img src="./image/image-03 (1).jpg" alt="" class="rounded-lg">
+                            <span class="ml-4">
+                                <h3 class="text-white text-xl">Andria Jolley</h3>
+                                <h5 class="text-teal-300 mt-3">CEO & Founder @ Dreampeet.</h5>
+                            </span>
+                        </div>
+
+                        <p class="my-4 text-teal-500 font-medium">
+                            “I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys.”
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="w-full md:w-1/2 p-4   wow animate__animated animate__fadeInUp">
+                    <div class="w-full h-max m-2 p-6 bg-indigo-900 rounded-lg relative">
+                        <img src="./image/testimonial-shape.svg" class="absolute w-1/2 h-full top-0 right-0" alt="">
+
+                        <div class="flex items-center">
+                            <img src="./image/image-04 (1).jpg" alt="" class="rounded-lg">
+                            <span class="ml-4">
+                                <h3 class="text-white text-xl">David Willium</h3>
+                                <h5 class="text-teal-300 mt-3">CEO & Founder @ Dreampeet.</h5>
+                            </span>
+                        </div>
+
+                        <p class="my-4 text-teal-500 font-medium">
+                            “I believe in lifelong learning and Learn. is a great place to learn from experts. I've learned a lot and recommend it to all my friends and familys.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-zinc-800 py-12">
+        <div class="container mx-auto">
+            <div class="w-full h-max flex flex-col lg:flex-row">
+                <div class="w-full lg:w-1/2 p-3 flex flex-col justify-center   wow animate__animated animate__fadeInLeft">
+                    <h3 class="uppercase text-blue-600 text-xl my-2">download our app</h3>
+                    <h1 class="text-white text-5xl font-semibold leading-normal my-5">
+                        the choise is yours, <br>
+                        we've got your coverd
+                    </h1>
+                    <p class="text-xl text-teal-500 mb-5 font-medium">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum alias at sit architecto! Eveniet non ipsam molestias similique temporibus, a rem ad. Incidunt non explicabo a perferendis sapiente, debitis reiciendis?
+                    </p>
+
+                    <div class="flex gap-x-5 justify-center sm:justify-start">
+                        <button class="px-3 py-2 rounded-full bg-zinc-700 hover:bg-zinc-600 cursor-pointer border-none text-white flex items-center gap-x-2">
+                            <i class="text-2xl bg-blue-400 rounded-full p-2    bx bxl-apple"></i>
+                            <span class="text-lg font-medium">App Store</span>
+                        </button>
+                        <button  class="px-3 py-2 rounded-full bg-transparent cursor-pointer border border-solid border-zinc-700 hover:bg-zinc-700 text-white flex items-center gap-x-2">
+                            <i class="text-2xl bg-white text-black rounded-full p-2    bx bxl-play-store"></i>
+                            <span class="text-lg font-medium">App Store</span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="w-full lg:w-1/2 p-3 flex justify-center items-center  wow animate__animated animate__fadeInRight">
+                    <img src="./image/app-image.png" class="w-full sm:w-max" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-zinc-700 py-12">
+        <div class="container mx-auto">
+            <div class="text-center pb-16">
+                <h5 class="uppercase text-blue-600 text-xl font-semibold">faq</h5>
+                <h2 class="text-white text-4xl mb-6 mt-4">Frequently Asked Questions</h2>
+                <p class="text-teal-500 max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.</p>
+            </div>
+
+            <div class="faq-parent  mx-auto w-2/3 h-max  mb-4 p-4 bg-blue-700 rounded-lg   wow animate__animated animate__fadeInDown">
+                <div class="flex justify-between cursor-pointer">
+                    <p class="text-white text-sm ml-2 sm:text-xl font-medium">How can I participate in the ICO Token sale?</p>
+                    <button class="text-blue-700 bg-white border-none flex justify-center items-center text-3xl rounded-lg">
+                        <i class="bx bx-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div class="faq-detail overflow-hidden h-0">
+                    <p class="text-gray-400 pt-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit veniam eaque aliquid tempore libero ratione amet laboriosam optio, aliquam assumenda, iste autem, mollitia ea? Harum optio dicta dolore aliquam.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="faq-parent  mx-auto w-2/3 h-max  mb-4 p-4 bg-blue-700 rounded-lg   wow animate__animated animate__fadeInDown">
+                <div class="flex justify-between cursor-pointer">
+                    <p class="text-white text-sm ml-2 sm:text-xl font-medium">How can I participate in the ICO Token sale?</p>
+                    <button class="text-blue-700 bg-white border-none flex justify-center items-center text-3xl rounded-lg">
+                        <i class="bx bx-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div class="faq-detail overflow-hidden h-0">
+                    <p class="text-gray-400 pt-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit veniam eaque aliquid tempore libero ratione amet laboriosam optio, aliquam assumenda, iste autem, mollitia ea? Harum optio dicta dolore aliquam.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="faq-parent  mx-auto w-2/3 h-max  mb-4 p-4 bg-blue-700 rounded-lg   wow animate__animated animate__fadeInDown">
+                <div class="flex justify-between cursor-pointer">
+                    <p class="text-white text-sm ml-2 sm:text-xl font-medium">How can I participate in the ICO Token sale?</p>
+                    <button class="text-blue-700 bg-white border-none flex justify-center items-center text-3xl rounded-lg">
+                        <i class="bx bx-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div class="faq-detail overflow-hidden h-0">
+                    <p class="text-gray-400 pt-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit veniam eaque aliquid tempore libero ratione amet laboriosam optio, aliquam assumenda, iste autem, mollitia ea? Harum optio dicta dolore aliquam.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bg-zinc-800 py-12">
+        <div class="container mx-auto">
+            <div class="text-center py-16">
+                <h5 class="uppercase text-blue-600 text-xl font-semibold">lasted news</h5>
+                <h2 class="text-white text-4xl mb-12 mt-8">Recent News & Blogs</h2>
+                <p class="text-teal-500 max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.</p>
+            </div>
+
+            <div class="w-full flex flex-col md:flex-row flex-wrap">
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4   wow animate__animated animate__fadeInUp">
+                    <div class="m-3 w-full h-max bg-zinc-700 rounded-lg overflow-hidden">
+                        <img src="./image/image-01 (2).jpg" width="100%" alt="">
+                        <div class="pl-4 m-2">
+                            <ul class="flex gap-x-6 mb-3">
+                                <li>
+                                    <i class="text-white mr-2  bx bxs-user"></i>
+                                    <span class="text-teal-400">By Admin</span>
+                                </li>
+
+                                <li>
+                                    <i class="text-white mr-2   bx bxs-calendar"></i>
+                                    <span class="text-teal-400">Jun 25, 2025</span>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="text-white text-xl hover:text-blue-500">Expenses as material bre<br/>mate insisted building</a>
+
+                            <p class="my-4 text-teal-400 font-semibold">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condime vel.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4   wow animate__animated animate__fadeInUp">
+                    <div class="m-3 w-full h-max bg-zinc-700 rounded-lg overflow-hidden">
+                        <img src="./image/image-02 (2).jpg" width="100%" alt="">
+                        <div class="pl-4 m-2">
+                            <ul class="flex gap-x-6 mb-3">
+                                <li>
+                                    <i class="text-white mr-2  bx bxs-user"></i>
+                                    <span class="text-teal-400">By Admin</span>
+                                </li>
+
+                                <li>
+                                    <i class="text-white mr-2   bx bxs-calendar"></i>
+                                    <span class="text-teal-400">Jun 25, 2025</span>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="text-white text-xl hover:text-blue-500">Quis nostrud exercitati<br/>ullamc laboris nisi aliquip</a>
+
+                            <p class="my-4 text-teal-400 font-semibold">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condime vel.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4   wow animate__animated animate__fadeInUp">
+                    <div class="m-3 w-full h-max bg-zinc-700 rounded-lg overflow-hidden">
+                        <img src="./image/image-03 (2).jpg" width="100%" alt="">
+                        <div class="pl-4 m-2">
+                            <ul class="flex gap-x-6 mb-3">
+                                <li>
+                                    <i class="text-white mr-2  bx bxs-user"></i>
+                                    <span class="text-teal-400">By Admin</span>
+                                </li>
+
+                                <li>
+                                    <i class="text-white mr-2   bx bxs-calendar"></i>
+                                    <span class="text-teal-400">Jun 25, 2025</span>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="text-white text-xl hover:text-blue-500">Laboris nisi aliquip dium<br/>exiuliym commo cons.</a>
+
+                            <p class="my-4 text-teal-400 font-semibold">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condime vel.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-zinc-700 py-12">
+        <div class="container mx-auto">
+            <div class="w-full flex flex-col lg:flex-row">
+                
+                
+                <div class="w-full lg:w-1/2 p-5  wow animate__animated animate__fadeInLeft">
+                    
+                    <div class="text-left py-16">
+                        <h5 class="uppercase text-blue-600 text-xl font-semibold">contact us</h5>
+                        <h2 class="text-white text-4xl my-4">Let's talk about your problem.</h2>
+                        <p class="text-teal-500 max-w-lg mr-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.</p>
+                    </div>
+
+                    <div class="w-full flex flex-wrap">
+                        <div class="w-full md:w-1/2 py-4 pr-4">
+                            <h3 class="text-white font-medium text-xl">Our Location</h3>
+                            <p class="text-teal-400 my-2">
+                                401 Broadway, 24th Floor,<br/>Orchard Cloud View, London
+                            </p>
+                        </div>
+                        <div class="w-full md:w-1/2 py-4 pr-4">
+                            <h3 class="text-white font-medium text-xl">Email Address</h3>
+                            <ul class="text-teal-400 my-2 list-disc">
+                                <li class="my-2">info@yourdomain.com</li>
+                                <li class="my-2">contact@yourdomain.com</li>
+                            </ul>
+                        </div>
+                        <div class="w-full md:w-1/2 py-4 pr-4">
+                            <h3 class="text-white font-medium text-xl">Phone Number</h3>
+                            <ul class="text-teal-400 my-2 list-disc">
+                                <li class="my-2">+550 9475 4543</li>
+                                <li class="my-2">+990 846 73644</li>
+                            </ul>
+                        </div>
+                        <div class="w-full md:w-1/2 py-4 pr-4">
+                            <h3 class="text-white font-medium text-xl">How Can We Help?</h3>
+                            <p class="text-teal-400 my-2">
+                                Tell us your problem we will get<br/>back to you ASAP.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="w-full lg:w-1/2 p-5 flex justify-center  wow animate__animated animate__fadeInRight">
+                    <form class="h-max w-full sm:w-2/3 bg-blue-900 rounded-xl py-12 px-4">
+                        <h1 class="text-teal-200 text-4xl font-semibold mb-8">Send us a Message</h1>
+                        
+                        <label for="full-name" class="text-gray-200 font-normal">Full Name*</label><br/>
+                        <input
+                            id="full-name"
+                            type="text"
+                            class="bg-sky-900 focus:border-transparent text-base outline-none text-teal-400 mt-3 px-4 mb-8 py-2 w-full rounded-lg bg-transparent border border-solid border-teal-700"
+                            placeholder="Enter Your Full Name"
+                        />
+
+                        <label for="full-email" class="text-gray-200 font-normal">Email Address*</label><br/>
+                        <input
+                            id="full-email"
+                            type="email"
+                            class="bg-sky-900 focus:border-transparent text-base outline-none text-teal-400 mt-3 px-4 mb-8 py-2 w-full rounded-lg bg-transparent border border-solid border-teal-700"
+                            placeholder="Enter Your Email Address"
+                        />
+
+                        <label for="text-area" class="text-gray-200 font-normal">Message*</label><br/>
+                        <textarea
+                            placeholder="Type Your Message"
+                            id="text-area"
+                            class="bg-sky-900 focus:border-transparent text-base outline-none text-teal-400 mt-3 px-4 mb-8 py-2 w-full rounded-lg bg-transparent border border-solid border-teal-700 resize-none h-36"
+                        ></textarea>
+
+                        <button type="button" class="w-full rounded-full py-2 text-lg border-none font-semibold cursor-pointer hover:bg-teal-200">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-zinc-700 h-max relative w-full py-12 ">
+        <div class="container mx-auto relative">
+            
+            
+            <div class="w-full flex flex-col lg:flex-row flex-wrap rounded-lg items-center bg-blue-900   wow animate__animated animate__fadeInUp">
+
+                <div class="w-full lg:w-1/2 p-6 h-max">
+                    <h2 class="text-white my-6 text-lg sm:text-5xl">Newsletter</h2>
+                    <p class="text-teal-300 mb-8 text-sm sm:text-lg">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+                        Nam vitae quam nec ante aliquet fringilla vel at erat.
+                    </p>
+                </div>
+
+                <div class="w-full lg:w-1/2 h-max py-8 sm:px-8">
+                    <div class="py-4 px-12 bg-white w-full mx-auto rounded-lg sm:rounded-full flex flex-col gap-y-2 sm:flex-row items-center justify-around">
+                        <input type="email" placeholder="Enter Your Email Address"
+                        class="text-black border-none text-sm sm:text-lg w-max">
+                        
+                        <button class="text-white cursor-pointer text-base sm:text-lg bg-blue-600 border-0 w-max px-5 py-2 rounded-full">
+                            Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <footer class="bg-zinc-800 pt-12 pb-8">
+        <div class="container mx-auto mt-16">
+            <div class="w-full h-max flex flex-col sm:flex-row flex-wrap">
+                                
+                <div class="w-full h-max md:w-1/2 lg:w-1/3 xl:w-1/4">
+                    <div class="w-full h-max p-5">
+                        <img src="./image/logo-white.svg" alt="">
+                        <p class="text-teal-500 font-medium my-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae quam nec ante fringilla vel at erat convallis elit.
+                        </p>
+                        <ul class="flex gap-x-3">
+                            <li>
+                                <a href="#" class="bg-zinc-900 hover:bg-blue-500 text-white p-2 rounded-full text-2xl     bx bxl-discord"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="bg-zinc-900 hover:bg-blue-500 text-white p-2 rounded-full text-2xl     bx bxl-twitter"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="bg-zinc-900 hover:bg-blue-500 text-white p-2 rounded-full text-2xl     bx bxl-linkedin"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="bg-zinc-900 hover:bg-blue-500 text-white p-2 rounded-full text-2xl     bx bxl-youtube"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 h-max">
+                    <div class="w-full h-max p-5">
+                        <h4 class="text-white text-3xl font-medium mb-5">Quick Links</h4>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">What is ico</a>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">Roadmap</a>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">Whitepaper</a>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">Social Network</a>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">Join Us Now</a>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 h-max">
+                    <div class="w-full h-max p-5">
+                        <h4 class="text-white text-3xl font-medium mb-5">Supports</h4>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">Setting & Privacy</a>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">Help & Support</a>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">Terms & Conditions</a>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">24/7 Support</a>
+                        <a href="#" class="text-teal-500 block my-2 hover:text-blue-500 font-medium">On Point FAQ</a>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 h-max">
+                    <div class="w-full h-max p-5">
+                        <h4 class="text-white text-3xl font-medium mb-5">Supports</h4>
+
+                        <div class="flex items-center mb-4">
+                            <img src="./image/blog-01.jpg" class="rounded-lg h-max w-max" alt="">
+                            <div class="ml-2 flex flex-col justify-between">
+                                <a class="text-teal-500 block mb-2 hover:text-blue-500 font-medium" href="#">
+                                    Roll Out New Features Without Hurting Loyal Users
+                                </a>
+                                <span class="text-teal-500 font-medium"><i class="bx bxs-calendar"></i> Dec 18, 2025</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center mb-4">
+                            <img src="./image/blog-02.jpg" class="rounded-lg h-max w-max" alt="">
+                            <div class="ml-2 flex flex-col justify-between">
+                                <a class="text-teal-500 block mb-2 hover:text-blue-500 font-medium" href="#">
+                                    Top 10 Best Cryptocurrency Blogs and Websites
+                                </a>
+                                <span class="text-teal-500 font-medium"><i class="bx bxs-calendar"></i> Dec 18, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="my-6 w-full bg-zinc-600" style="height: 1px;"></div>
+
+            <p class="text-white text-base text-center">
+                © Crypto - all Rights Reserved, Crafted by - <a href="https://github.com/OmidPishkar" class="mx-4 text-white underline hover:text-teal-200">O.JR</a> -
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+</body>
+</html>
